@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.img{
+    width: 250px;
+    height: 250px;
+    
+}
+img{
+    width: 100%;
+}
+.product_card{
+    background-color: orange;
+    width: 25%;
+    border: 1px solid #333;
+    border-radius: 25px; /* for making outside border*/
+padding: 15px;
+}
+.product_card button{
+    display: block;  /* display block for one element will stay by side and inline for one under another */
+width: 100%;
+padding: 10px 15px;
+font-size: 15px;
+font-family: sans-serif;
+margin: 10px 0; /* 10 for up down and 0 for left right*/
+border-radius: 5px;
+cursor: pointer;
+};
+.product_card button: hover{
+    background-color: 
+}

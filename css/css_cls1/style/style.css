@@ -1,0 +1,34 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
+</style>
+h1{font-family: 'Timmana', sans-serif;
+
+}
+.sub{
+    width: 252px;
+    height: 388px;
+    background-color: #FFFFFF ;
+}
+.main .save p {
+    width: 70px;
+    height: 25px;
+    display: inline-block;
+    background-color: #6E2594;
+    border-radius: 0 15px 15px 0;
+    color: #fff;
+}
+.main .img{
+    text-align: center;
+    /* for front style (google fonts)*/
+
+}
+.price .present_price{
+    color: #ef4a23;
+}
+.price .delet{
+    text-decoration: line-through;
+    font-size: small; /* for delet mark (line-through) */
+}
+.details .a{
+    font-weight: bold; /* for bolding weight (font-weight)*/
+}

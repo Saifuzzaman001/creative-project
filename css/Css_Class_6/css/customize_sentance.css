@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;  /* for keep exect same value in limit */
+h1{
+font-size: 100px;
+font-family: sans-serif;
+text-transform: uppercase;
+text-align: center;
+margin-top: 200px;
+background-image: linear-gradient(red,orange);
+background-size: cover;
+background-clip: text;   /* 14 15 are must for this kind of font disign*/
+color: transparent;
+-webkit-text-fill-color: transparent;  /*  this prefix is use for support every search ingeen */
+}
+
+
+
+
+
+
+/*  we use web prefix for support our webside in every search ingeen */
+
+
+/*  for write prefix auto we use (((((((((((autoprefixer webside)))))))) */
+/* we pest our code in it and it genarate auto prefix*/

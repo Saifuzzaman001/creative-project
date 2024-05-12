@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;  /* for keep exect same value in limit */
+}
+
+.product_card{
+    width: 500px;
+    background-color: orange;
+margin: 10px;  /* margin for taking space for sarounding */
+padding: 10px; /* padding for inside */
+border: 4px solid aqua;
+border-radius: 15px 15px 15px 15px;
+}
+
+#background_img{
+    background-image:linear-gradient(pink,orange);
+}
