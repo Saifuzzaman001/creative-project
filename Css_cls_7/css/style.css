@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.product_card{
+    background-color: orange;
+width: 25%;
+border: 1px solid black;
+border-radius: 5px;
+padding: 15px;
+
+}
+.product_card .thumbnail img{
+width: 100%;  /* (   it img overflow  we have to do width 100%) */
+}
+.product_card button{
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 10px 0; /* for making gap between two element we use it */
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product_card button:hover{
+    background-color: aquamarine;
+    transition: .8√s;
+    color: white;
+}
